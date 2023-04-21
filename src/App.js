@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import { HexAlphaColorPicker } from './color';
 
 function App() {
+  const [color, setColor] = useState();
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      < HexAlphaColorPicker color={color} onChange={setColor} />
     </div>
   );
 }

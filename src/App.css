@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  padding: 50px;
+  font: normal 18px/1.4 Arial, sans-serif;
+}
+
+.value {
+  font-family: monospace;
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin: 0 8px 8px 0;
+  padding: 2px 8px;
+  font: inherit;
+  cursor: pointer;
+}
+
